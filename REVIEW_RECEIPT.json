@@ -1,8 +1,8 @@
 {
-  "timestamp_utc": "2026-10-30T23:43:05.331364+00:00",
-  "version": "Complete figures, manuscript and replay packaging before remote CI",
-  "status": "INCOMPLETE_REMOTE_RELEASE_PENDING",
-  "grade": 3,
+  "timestamp_utc": "2026-10-30T23:44:02.432578+00:00",
+  "version": "Local ready candidate; exact remote release proof tracked separately",
+  "status": "LOCAL_ACCEPTANCE_PASS_RELEASE_PENDING",
+  "grade": 4,
   "acceptance_criteria": "Exact licensed and nonidentifying public scope; unchanged fixed analytical protocol; independently verified complete comparison and selector; practical authored exercise; source-bound readable figures/paper; two isolated full-history replays; exact candidate/main CI/tree/tag and metadata.",
   "gates": {
     "source": "pass",
@@ -11,8 +11,8 @@
     "exercise": "pass",
     "presentation": "pass",
     "replay": "pass",
-    "privacy": "unknown",
-    "release": "unknown"
+    "privacy": "pass_bounded_canonical_scan",
+    "release": "pending_exact_remote_proof"
   },
   "criteria": {
     "source": {
@@ -49,12 +49,13 @@
       "state": "pass",
       "grade": 4,
       "evidence": "Two separate full-history analysis clones at d3d630f, 168193 exact and 16863 numeric facts per runtime",
-      "limitation": "Final presentation and exact remote Linux candidate still pending."
+      "limitation": "Analysis replays at the recorded revision; current figures/paper separately pass their static checks. Exact Linux candidate evidence remains a release gate."
     },
     "privacy": {
-      "state": "unknown",
-      "grade": null,
-      "evidence": "Scoped staged canonical-blob audit pending"
+      "state": "pass",
+      "grade": 4,
+      "evidence": "77-file scoped staged audit and 76 canonical Git blob hashes checked on ba24c4b; current metadata revision gets a fresh scan.",
+      "limitation": "Bounded exclusions, scoped independent manuscript hashes and high-confidence text patterns, not universal security detection."
     },
     "release": {
       "state": "unknown",
@@ -92,5 +93,10 @@
     "paper_bindings.json": "86ab42ecc0c438c964757fd846ac099d31d9c18eea78c9ed294d15b11cdb4c74",
     "figures/value_map.json": "e34d89848c96f5cc504cf1f7d5dd6e79bcf939797bf0c3528563a92aa399f168",
     "data/frozen_dependencies.json": "39ef855e659cc38bc44e47649839d8e3f556bc2c081f254782767f3fb29ac307"
+  },
+  "scope": "Finite local artifact acceptance. Completion of the release still requires exact candidate/main Linux CI, matching tree, annotated remote tag and synchronized metadata; these are not marked passed here.",
+  "release_evidence": {
+    "state": "PENDING_EXACT_REMOTE_CHECKS",
+    "pull_request": "https://github.com/S3R3Bii/flight-compression-query-audit/pull/2"
   }
 }
