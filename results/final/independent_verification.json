@@ -1,0 +1,18 @@
+{
+  "status": "PASS_INDEPENDENT_ENCODED_REPLAY_AND_SELECTION",
+  "phase": "final",
+  "conditions": 2680129,
+  "cases": 715,
+  "point_diagnostics_checked": 329307,
+  "split_interior_points_independently_checked": 1353861,
+  "selected_configuration": "identity",
+  "method": "Independent struct payload/point-record decoding, scalar split trees, 80-digit Decimal reconstruction/errors/queries and SQLite equal-aircraft summaries; no analysis helper imports",
+  "working_input_sha256": "244c74b3666397efabb28c933ec7ca59e9ca367ba27c8d24f3faa44c2343bd9d",
+  "source_archive_sha256_unchanged": "d058adbbc19393bdb08ace91e0505933c858b626e5098ed87dd7645ab045485c",
+  "public_artifact_hashes": {
+    "configuration_summary.json": "b97097526a33800ca3f90e41b39f0e8ce3ce7df420a5496de350d254e9c81304",
+    "final_result.json": "999c3cf2a8b70c4e09c772e8d280d519d47989a7c3f1b449739da47580756eeb",
+    "retention_witnesses.json": "11f3a38e940debcb40a435cd47c7c91a2448d6298e5e9e0f9cb2960ebe047011",
+    "run_metrics.csv": "2ab9a0e8f18cbdb9d4dbef3864331430c764dd29351c1d2cc756857a7e34dd2e"
+  }
+}
