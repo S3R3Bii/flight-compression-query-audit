@@ -1,5 +1,5 @@
 {
-  "timestamp_utc": "2026-10-30T23:44:51.025702+00:00",
+  "timestamp_utc": "2026-10-30T23:46:41.066504+00:00",
   "status": "PASS_BOUNDED_SCAN",
   "files_checked": 77,
   "scope": "Exact staged Git index bytes; decompressed text; forbidden paths/extensions, high-confidence key and private machine path patterns; local Markdown links. Image/PDF contents require separate visual/source review. This is not universal secret detection.",
@@ -14,7 +14,7 @@
     "FINAL_NOTE.md": "ce3987792c62498a080ec5a43bb760b5f66338c9c5e1c6b250ce9798b6dd6676",
     "LICENSE": "50f2b87a420b77483510c10a57a9b2238230f367e4040108d85b8f20c571d746",
     "PROTOCOL.md": "b2dc381f05a898998e34dfab5f5bfee52fc65a7e73a1b00c19e07b3873a4e7ce",
-    "README.md": "1abdc6672891149f56302e72a66c39012dd80821b0da143d9a51e6afdea5a80c",
+    "README.md": "14814cb944cb0b83c9a9a607d8db5bcbc815396deb29a4f407097e43ee44adba",
     "REVIEW_RECEIPT.json": "0017367a482fa4f5b41236e46beef8777c88285efd9d3224f9406c770622d25b",
     "SOURCE_BINDING.md": "322fba7eb0cd7966ead8ba3aeb9d19ffc41fc3e90198b14a7bf96e676c9de67e",
     "data/cohort.json": "77671066e01fb5c9bb40d3b1095550a14b225ce30a76952ad43d35a32e5a95b5",
