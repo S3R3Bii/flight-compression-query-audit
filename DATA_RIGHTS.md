@@ -1,0 +1,7 @@
+# Source rights and privacy
+
+TrajAir: A General Aviation Trajectory Dataset, version1, DOI [10.1184/R1/14866251.v1](https://doi.org/10.1184/R1/14866251.v1), by Jay Patrikar, Brady Moon, Sourish Ghosh, Jean Oh and Sebastian Scherer, Carnegie Mellon University/AirLab. The [official site](https://theairlab.org/trajair/) and [repository metadata](https://api.figshare.com/v2/articles/14866251) explicitly identify [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). Retain attribution, the source/version/checksum and license link; identify filtering, unit conversion, run segmentation, compression and new query/metric calculations as modifications. No source endorsement is implied.
+
+MIT licenses our original code only. Third-party papers, source implementations, author contact dumps, raw archives, coordinates, aircraft identifiers, absolute observation times and binary coordinate payloads are excluded from GitHub. Metric summaries and aggregate figures do not establish anonymization, differential privacy or an inability to match records against public sources. The licensed input is obtained directly from its publisher for reproduction, into an ignored temporary source directory. CI does not print, cache or upload raw source records.
+
+The earlier OpenSky alternatives retain their original restrictions; none is included or relicensed here. No account, agreement, source contact, subscription or paid query is used. This independent program's checked manuscript may be public; Azure optimization and other formal-publication projects remain private.

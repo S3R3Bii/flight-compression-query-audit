@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+.venv/
+.source/
+.work/
+private/
+data/raw/
+*.zip
+*.npy
+*.bin
+*.env
+paper/build/

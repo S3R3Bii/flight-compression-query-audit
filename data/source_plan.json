@@ -1,0 +1,53 @@
+{
+  "study": "40",
+  "status": "FIXED_BEFORE_TRAJECTORY_COHORT_CAPTURE",
+  "source": "TrajAir: A General Aviation Trajectory Dataset",
+  "doi": "10.1184/R1/14866251.v1",
+  "metadata_url": "https://api.figshare.com/v2/articles/14866251",
+  "official_site": "https://theairlab.org/trajair/",
+  "license": "CC BY 4.0",
+  "file": {
+    "id": 28625121,
+    "name": "7days1.zip",
+    "url": "https://ndownloader.figshare.com/files/28625121",
+    "bytes": 37509701,
+    "publisher_md5": "ea45667239cc503767dc4baa9d125066",
+    "maximum_bytes": 50331648,
+    "maximum_redirects": 3
+  },
+  "scene_selection": "first24 unique numeric txt scene names across processed_data/train and processed_data/test, sorted by numeric ID then full member name; no raw or weather members read",
+  "scene_count": 24,
+  "maximum_selected_uncompressed_bytes": 67108864,
+  "maximum_native_rows": 500000,
+  "minimum_run_points": 20,
+  "maximum_run_points": 20000,
+  "minimum_qualifying_aircraft_per_partition": 2,
+  "split": "SHA256 UTF8 trajair-aircraft-v1: plus base10 source aircraft ID; first byte even development, odd final; source IDs private",
+  "source_position_units": "km",
+  "analysis_position_units": "m",
+  "frame_rate_hz": 1,
+  "zones_radius_m": [1000, 2000],
+  "configurations": {
+    "identity": true,
+    "uniform_stride": [2, 4, 8, 16],
+    "geometric_tolerance_m": [10, 25, 50],
+    "synchronous_tolerance_m": [10, 25, 50]
+  },
+  "selection_guards": {
+    "maximum_synchronous_error_m": 25,
+    "maximum_route_relative_error": 0.01,
+    "maximum_zone_occupancy_error_seconds": 2,
+    "maximum_first_transition_error_seconds": 2,
+    "transition_state_must_match": true
+  },
+  "record_header_bytes": 8,
+  "point_record_bytes": 32,
+  "source_metadata_sha256": {
+    "airlab_page": "873782fb25492c3686a806e7f2739aaec51d75a72aeace7745835a8aca520007",
+    "figshare_record": "b268b1db494ca4ec6f8d06f32b9224792c8250636739d5ad756de467752a6b25",
+    "publisher_readme": "2e76f469b6bc12fec0a49acbd25e3706dcda4428dc2bdceec04141aecee08bb7"
+  },
+  "raw_source_or_coordinates_public": false,
+  "public_replay_requires_separate_pinned_source_acquisition": true,
+  "seed": null
+}
