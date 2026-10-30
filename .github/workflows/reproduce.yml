@@ -1,0 +1,27 @@
+name: Reproduce trajectory query fidelity
+on:
+  push:
+    branches: [main]
+  pull_request:
+    types: [opened, synchronize, reopened, ready_for_review]
+  workflow_dispatch:
+concurrency:
+  group: ${{ github.workflow }}-${{ github.event.pull_request.number || github.ref }}
+  cancel-in-progress: true
+jobs:
+  reproduce:
+    if: github.event_name != 'pull_request' || github.event.action == 'ready_for_review' || github.event.pull_request.draft == false
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          ref: ${{ github.event.pull_request.head.sha || github.sha }}
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python -m pip install -r requirements.txt
+      - name: Fetch the separately pinned public source
+        run: python src/capture_source.py --out .source/7days1.zip --receipt .source/capture.json --protocol-commit e17b0aab0d3ed6d45de1965d111a0f30f514f152 --expected-sha256 d058adbbc19393bdb08ace91e0505933c858b626e5098ed87dd7645ab045485c
+      - run: python src/replay.py --archive .source/7days1.zip --work .work/replay --receipt .work/replay-receipt.json
+      - run: python src/verify_canonical_git.py

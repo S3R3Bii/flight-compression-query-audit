@@ -1,0 +1,96 @@
+{
+  "timestamp_utc": "2026-10-30T23:43:05.331364+00:00",
+  "version": "Complete figures, manuscript and replay packaging before remote CI",
+  "status": "INCOMPLETE_REMOTE_RELEASE_PENDING",
+  "grade": 3,
+  "acceptance_criteria": "Exact licensed and nonidentifying public scope; unchanged fixed analytical protocol; independently verified complete comparison and selector; practical authored exercise; source-bound readable figures/paper; two isolated full-history replays; exact candidate/main CI/tree/tag and metadata.",
+  "gates": {
+    "source": "pass",
+    "analysis": "pass",
+    "separation": "pass",
+    "exercise": "pass",
+    "presentation": "pass",
+    "replay": "pass",
+    "privacy": "unknown",
+    "release": "unknown"
+  },
+  "criteria": {
+    "source": {
+      "state": "pass",
+      "grade": 4,
+      "evidence": "Exact licensed archive; separate ZIP/SQLite/Decimal checker, 480761 conditions",
+      "limitation": "One airport, processed interpolated source, fixed convenience slice, not ground truth."
+    },
+    "analysis": {
+      "state": "pass",
+      "grade": 4,
+      "evidence": "Independent decode/Decimal/split/SQLite checks: 1210248 development and 2680129 final conditions; all 11 fixed settings retained",
+      "limitation": "Authored budgets, dependent runs, finite grid, no operational claim."
+    },
+    "separation": {
+      "state": "pass",
+      "grade": 4,
+      "evidence": "34 committed analytical dependencies frozen before first final scores; original selection remains identity",
+      "limitation": "Final coordinates already present for source quality; not blinded."
+    },
+    "exercise": {
+      "state": "pass",
+      "grade": 4,
+      "evidence": "34 fixture methods; three authored examples and 18 closed-form checks",
+      "limitation": "Local teaching guard, not operational control."
+    },
+    "presentation": {
+      "state": "pass",
+      "grade": 4,
+      "evidence": "Three individually inspected source-bound figures and all six current PDF pages; 66 bindings, 300 paper conditions",
+      "limitation": "No accessibility-conformance claim from appearance."
+    },
+    "replay": {
+      "state": "pass",
+      "grade": 4,
+      "evidence": "Two separate full-history analysis clones at d3d630f, 168193 exact and 16863 numeric facts per runtime",
+      "limitation": "Final presentation and exact remote Linux candidate still pending."
+    },
+    "privacy": {
+      "state": "unknown",
+      "grade": null,
+      "evidence": "Scoped staged canonical-blob audit pending"
+    },
+    "release": {
+      "state": "unknown",
+      "grade": null,
+      "evidence": "Exact candidate/main Linux CI, matching tree, annotated tag and program registration pending"
+    }
+  },
+  "review_budget": {
+    "round": 3,
+    "max_rounds": 3,
+    "max_active_review_minutes": 45,
+    "max_review_tool_calls": 60,
+    "accounting": "Exact active review time/calls not separately instrumented. Source acquisition and numerical execution are separate; three substantive phases used. No grade-only delegation."
+  },
+  "usage": {
+    "source": "Codex get_usage_limits",
+    "observed_utc": "2026-10-30T23:43:13Z",
+    "bucket": "codex",
+    "window_minutes": 10080,
+    "used_percent": 56,
+    "remaining_percent": 44,
+    "reset_unix": 1793910839,
+    "secondary": "unavailable",
+    "shared_account_not_task_usage": true
+  },
+  "material_changes": "Three source-bound figures, six-page independent manuscript, unchanged analytical comparisons and freeze; replay now also verifies existing figure and paper artifacts.",
+  "failures_retained": [
+    "Earlier unsuitable source candidates retained privately; TrajAir rights and bounded protocol fixed before coordinate capture.",
+    "First development evidence without binary point diagnostics retained; evidence augmentation changed no metric, selector or candidate.",
+    "First TeX compile overfull paragraph retained privately; linked DOI display shortened and all current pages freshly rendered and inspected."
+  ],
+  "reviewed_files_sha256": {
+    "paper/main.tex": "26b26fd17c0d2e5635d392219fdaffbb02dc2d034b5c1337c79c5f3a9684afa8",
+    "paper/manuscript.pdf": "1a4cd7d9863ace3b61ac84f301ef8879f14dff1e55db211bdb2d9df9b9e1fedc",
+    "paper_bindings.json": "86ab42ecc0c438c964757fd846ac099d31d9c18eea78c9ed294d15b11cdb4c74",
+    "figures/value_map.json": "e34d89848c96f5cc504cf1f7d5dd6e79bcf939797bf0c3528563a92aa399f168",
+    "data/frozen_dependencies.json": "39ef855e659cc38bc44e47649839d8e3f556bc2c081f254782767f3fb29ac307"
+  }
+}

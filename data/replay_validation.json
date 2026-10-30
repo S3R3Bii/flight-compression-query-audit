@@ -1,0 +1,54 @@
+{
+  "analysis_revision": "d3d630f4c9d20f89894ad1f5d99c6b8bfc569d76",
+  "method": "Two separate full-history clones, fresh external work and exact pinned private source archive; analysis-only revision before figures and paper.",
+  "runtimes": [
+    {
+      "status": "PASS_COMPLETE_OFFLINE_REPLAY",
+      "python": "3.10.11",
+      "numpy": "2.2.5",
+      "exact_fields": 168193,
+      "tolerant_fields": 16863,
+      "runtime_specific_hashes_independently_checked": 2340,
+      "largest_difference_fraction_of_declared_tolerance": "0",
+      "phase_proofs": {
+        "development": {
+          "conditions": 1210248,
+          "cases": 451,
+          "point_diagnostics_checked": 149644,
+          "selected_configuration": "identity"
+        },
+        "final": {
+          "conditions": 2680129,
+          "cases": 715,
+          "point_diagnostics_checked": 329307,
+          "selected_configuration": "identity"
+        }
+      },
+      "source_archive_sha256_unchanged": "d058adbbc19393bdb08ace91e0505933c858b626e5098ed87dd7645ab045485c"
+    },
+    {
+      "status": "PASS_COMPLETE_OFFLINE_REPLAY",
+      "python": "3.12.14",
+      "numpy": "2.2.5",
+      "exact_fields": 168193,
+      "tolerant_fields": 16863,
+      "runtime_specific_hashes_independently_checked": 2340,
+      "largest_difference_fraction_of_declared_tolerance": "0.00001",
+      "phase_proofs": {
+        "development": {
+          "conditions": 1210248,
+          "cases": 451,
+          "point_diagnostics_checked": 149644,
+          "selected_configuration": "identity"
+        },
+        "final": {
+          "conditions": 2680129,
+          "cases": 715,
+          "point_diagnostics_checked": 329307,
+          "selected_configuration": "identity"
+        }
+      },
+      "source_archive_sha256_unchanged": "d058adbbc19393bdb08ace91e0505933c858b626e5098ed87dd7645ab045485c"
+    }
+  ]
+}

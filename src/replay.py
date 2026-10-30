@@ -130,6 +130,9 @@ def replay(archive, work, receipt, through="final"):
         cwd=ROOT,
         check=True,
     )
+    if through == "final":
+        run("verify_figures.py")
+        run("verify_paper.py")
     if hashlib.sha256(archive.read_bytes()).hexdigest() != before:
         raise RuntimeError("Original source archive changed during replay")
     result = {

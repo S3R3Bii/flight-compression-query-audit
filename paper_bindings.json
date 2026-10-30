@@ -1,0 +1,680 @@
+{
+  "ArchiveBytes": {
+    "file": "data/cohort.json",
+    "pointer": [
+      "archive_bytes"
+    ],
+    "value": 37509701,
+    "format": "integer",
+    "display": "37,509,701"
+  },
+  "NativeRows": {
+    "file": "data/cohort.json",
+    "pointer": [
+      "native_counts",
+      "native_rows"
+    ],
+    "value": 43542,
+    "format": "integer",
+    "display": "43,542"
+  },
+  "SourceScenes": {
+    "file": "data/cohort.json",
+    "pointer": [
+      "eligible_scenes"
+    ],
+    "value": 344,
+    "format": "integer",
+    "display": "344"
+  },
+  "ChosenScenes": {
+    "file": "data/cohort.json",
+    "pointer": [
+      "selected_scenes"
+    ],
+    "value": 24,
+    "format": "integer",
+    "display": "24"
+  },
+  "WorkingPoints": {
+    "file": "data/cohort.json",
+    "pointer": [
+      "qualified_points"
+    ],
+    "value": 43541,
+    "format": "integer",
+    "display": "43,541"
+  },
+  "WorkingRuns": {
+    "file": "data/cohort.json",
+    "pointer": [
+      "qualified_runs"
+    ],
+    "value": 106,
+    "format": "integer",
+    "display": "106"
+  },
+  "SourceGaps": {
+    "file": "data/cohort.json",
+    "pointer": [
+      "native_counts",
+      "gaps_split"
+    ],
+    "value": 28,
+    "format": "integer",
+    "display": "28"
+  },
+  "DevAircraft": {
+    "file": "data/cohort.json",
+    "pointer": [
+      "aircraft_groups",
+      "development"
+    ],
+    "value": 13,
+    "format": "integer",
+    "display": "13"
+  },
+  "FinalAircraft": {
+    "file": "data/cohort.json",
+    "pointer": [
+      "aircraft_groups",
+      "final"
+    ],
+    "value": 17,
+    "format": "integer",
+    "display": "17"
+  },
+  "DevRuns": {
+    "file": "data/cohort.json",
+    "pointer": [
+      "run_counts",
+      "development"
+    ],
+    "value": 41,
+    "format": "integer",
+    "display": "41"
+  },
+  "FinalRuns": {
+    "file": "data/cohort.json",
+    "pointer": [
+      "run_counts",
+      "final"
+    ],
+    "value": 65,
+    "format": "integer",
+    "display": "65"
+  },
+  "DevChecks": {
+    "file": "results/development/independent_verification.json",
+    "pointer": [
+      "conditions"
+    ],
+    "value": 1210248,
+    "format": "integer",
+    "display": "1,210,248"
+  },
+  "FinalChecks": {
+    "file": "results/final/independent_verification.json",
+    "pointer": [
+      "conditions"
+    ],
+    "value": 2680129,
+    "format": "integer",
+    "display": "2,680,129"
+  },
+  "NativeChecks": {
+    "file": "data/source_verification.json",
+    "pointer": [
+      "conditions"
+    ],
+    "value": 480761,
+    "format": "integer",
+    "display": "480,761"
+  },
+  "FixturePoints": {
+    "file": "data/example_validation.json",
+    "pointer": [
+      "cases",
+      "geometry-hides-time",
+      "metrics",
+      "input_points"
+    ],
+    "value": 201,
+    "format": "integer",
+    "display": "201"
+  },
+  "FixtureRetained": {
+    "file": "data/example_validation.json",
+    "pointer": [
+      "cases",
+      "geometry-hides-time",
+      "metrics",
+      "retained_points"
+    ],
+    "value": 2,
+    "format": "integer",
+    "display": "2"
+  },
+  "FixtureBytes": {
+    "file": "data/example_validation.json",
+    "pointer": [
+      "cases",
+      "geometry-hides-time",
+      "metrics",
+      "encoded_bytes"
+    ],
+    "value": 72,
+    "format": "integer",
+    "display": "72"
+  },
+  "FixtureInputBytes": {
+    "file": "data/example_validation.json",
+    "pointer": [
+      "cases",
+      "geometry-hides-time",
+      "metrics",
+      "input_bytes"
+    ],
+    "value": 6440,
+    "format": "integer",
+    "display": "6,440"
+  },
+  "EarlySeconds": {
+    "file": "data/example_validation.json",
+    "pointer": [
+      "cases",
+      "geometry-hides-time",
+      "metrics",
+      "zone1000_first_transition_absolute_error_s"
+    ],
+    "value": 75,
+    "format": "integer",
+    "display": "75"
+  },
+  "ReferenceExit": {
+    "file": "data/example_validation.json",
+    "pointer": [
+      "cases",
+      "geometry-hides-time",
+      "metrics",
+      "zone1000_reference_first_transition_s"
+    ],
+    "value": 126,
+    "format": "integer",
+    "display": "126"
+  },
+  "ReplayExit": {
+    "file": "data/example_validation.json",
+    "pointer": [
+      "cases",
+      "geometry-hides-time",
+      "metrics",
+      "zone1000_decoded_first_transition_s"
+    ],
+    "value": 51,
+    "format": "integer",
+    "display": "51"
+  },
+  "AllBytes": {
+    "file": "results/final/configuration_summary.json",
+    "pointer": [
+      0,
+      "total_byte_ratio"
+    ],
+    "value": 1.0,
+    "format": "percent",
+    "display": "100.0"
+  },
+  "AllFails": {
+    "file": "results/final/configuration_summary.json",
+    "pointer": [
+      0,
+      "violating_runs"
+    ],
+    "value": 0,
+    "format": "integer",
+    "display": "0"
+  },
+  "AllMax": {
+    "file": "results/final/configuration_summary.json",
+    "pointer": [
+      0,
+      "max_synchronous_error_m"
+    ],
+    "value": 0.0,
+    "format": "decimal",
+    "display": "0.00"
+  },
+  "StrideTwoBytes": {
+    "file": "results/final/configuration_summary.json",
+    "pointer": [
+      1,
+      "total_byte_ratio"
+    ],
+    "value": 0.5018570605860799,
+    "format": "percent",
+    "display": "50.2"
+  },
+  "StrideTwoFails": {
+    "file": "results/final/configuration_summary.json",
+    "pointer": [
+      1,
+      "violating_runs"
+    ],
+    "value": 52,
+    "format": "integer",
+    "display": "52"
+  },
+  "StrideTwoMax": {
+    "file": "results/final/configuration_summary.json",
+    "pointer": [
+      1,
+      "max_synchronous_error_m"
+    ],
+    "value": 640.0824824354859,
+    "format": "decimal",
+    "display": "640.08"
+  },
+  "StrideFourBytes": {
+    "file": "results/final/configuration_summary.json",
+    "pointer": [
+      2,
+      "total_byte_ratio"
+    ],
+    "value": 0.2529358249939489,
+    "format": "percent",
+    "display": "25.3"
+  },
+  "StrideFourFails": {
+    "file": "results/final/configuration_summary.json",
+    "pointer": [
+      2,
+      "violating_runs"
+    ],
+    "value": 61,
+    "format": "integer",
+    "display": "61"
+  },
+  "StrideFourMax": {
+    "file": "results/final/configuration_summary.json",
+    "pointer": [
+      2,
+      "max_synchronous_error_m"
+    ],
+    "value": 640.0807517064388,
+    "format": "decimal",
+    "display": "640.08"
+  },
+  "StrideEightBytes": {
+    "file": "results/final/configuration_summary.json",
+    "pointer": [
+      3,
+      "total_byte_ratio"
+    ],
+    "value": 0.12834166576247985,
+    "format": "percent",
+    "display": "12.8"
+  },
+  "StrideEightFails": {
+    "file": "results/final/configuration_summary.json",
+    "pointer": [
+      3,
+      "violating_runs"
+    ],
+    "value": 65,
+    "format": "integer",
+    "display": "65"
+  },
+  "StrideEightMax": {
+    "file": "results/final/configuration_summary.json",
+    "pointer": [
+      3,
+      "max_synchronous_error_m"
+    ],
+    "value": 640.1566446813956,
+    "format": "decimal",
+    "display": "640.16"
+  },
+  "StrideSixteenBytes": {
+    "file": "results/final/configuration_summary.json",
+    "pointer": [
+      4,
+      "total_byte_ratio"
+    ],
+    "value": 0.06594443007019271,
+    "format": "percent",
+    "display": "6.6"
+  },
+  "StrideSixteenFails": {
+    "file": "results/final/configuration_summary.json",
+    "pointer": [
+      4,
+      "violating_runs"
+    ],
+    "value": 65,
+    "format": "integer",
+    "display": "65"
+  },
+  "StrideSixteenMax": {
+    "file": "results/final/configuration_summary.json",
+    "pointer": [
+      4,
+      "max_synchronous_error_m"
+    ],
+    "value": 649.9357795757555,
+    "format": "decimal",
+    "display": "649.94"
+  },
+  "GeoTenBytes": {
+    "file": "results/final/configuration_summary.json",
+    "pointer": [
+      5,
+      "total_byte_ratio"
+    ],
+    "value": 0.1651991019338469,
+    "format": "percent",
+    "display": "16.5"
+  },
+  "GeoTenFails": {
+    "file": "results/final/configuration_summary.json",
+    "pointer": [
+      5,
+      "violating_runs"
+    ],
+    "value": 63,
+    "format": "integer",
+    "display": "63"
+  },
+  "GeoTenMax": {
+    "file": "results/final/configuration_summary.json",
+    "pointer": [
+      5,
+      "max_synchronous_error_m"
+    ],
+    "value": 701.5163885415872,
+    "format": "decimal",
+    "display": "701.52"
+  },
+  "GeoTwentyFiveBytes": {
+    "file": "results/final/configuration_summary.json",
+    "pointer": [
+      6,
+      "total_byte_ratio"
+    ],
+    "value": 0.08063398796457813,
+    "format": "percent",
+    "display": "8.1"
+  },
+  "GeoTwentyFiveFails": {
+    "file": "results/final/configuration_summary.json",
+    "pointer": [
+      6,
+      "violating_runs"
+    ],
+    "value": 65,
+    "format": "integer",
+    "display": "65"
+  },
+  "GeoTwentyFiveMax": {
+    "file": "results/final/configuration_summary.json",
+    "pointer": [
+      6,
+      "max_synchronous_error_m"
+    ],
+    "value": 1038.3737864693126,
+    "format": "decimal",
+    "display": "1038.37"
+  },
+  "GeoFiftyBytes": {
+    "file": "results/final/configuration_summary.json",
+    "pointer": [
+      7,
+      "total_byte_ratio"
+    ],
+    "value": 0.04277499102768481,
+    "format": "percent",
+    "display": "4.3"
+  },
+  "GeoFiftyFails": {
+    "file": "results/final/configuration_summary.json",
+    "pointer": [
+      7,
+      "violating_runs"
+    ],
+    "value": 65,
+    "format": "integer",
+    "display": "65"
+  },
+  "GeoFiftyMax": {
+    "file": "results/final/configuration_summary.json",
+    "pointer": [
+      7,
+      "max_synchronous_error_m"
+    ],
+    "value": 1567.9181958634485,
+    "format": "decimal",
+    "display": "1567.92"
+  },
+  "TimeTenBytes": {
+    "file": "results/final/configuration_summary.json",
+    "pointer": [
+      8,
+      "total_byte_ratio"
+    ],
+    "value": 0.33032308681027933,
+    "format": "percent",
+    "display": "33.0"
+  },
+  "TimeTenFails": {
+    "file": "results/final/configuration_summary.json",
+    "pointer": [
+      8,
+      "violating_runs"
+    ],
+    "value": 12,
+    "format": "integer",
+    "display": "12"
+  },
+  "TimeTenMax": {
+    "file": "results/final/configuration_summary.json",
+    "pointer": [
+      8,
+      "max_synchronous_error_m"
+    ],
+    "value": 9.999186880312644,
+    "format": "decimal",
+    "display": "10.00"
+  },
+  "TimeTwentyFiveBytes": {
+    "file": "results/final/configuration_summary.json",
+    "pointer": [
+      9,
+      "total_byte_ratio"
+    ],
+    "value": 0.14052732174304958,
+    "format": "percent",
+    "display": "14.1"
+  },
+  "TimeTwentyFiveFails": {
+    "file": "results/final/configuration_summary.json",
+    "pointer": [
+      9,
+      "violating_runs"
+    ],
+    "value": 14,
+    "format": "integer",
+    "display": "14"
+  },
+  "TimeTwentyFiveMax": {
+    "file": "results/final/configuration_summary.json",
+    "pointer": [
+      9,
+      "max_synchronous_error_m"
+    ],
+    "value": 24.998372030051115,
+    "format": "decimal",
+    "display": "25.00"
+  },
+  "TimeFiftyBytes": {
+    "file": "results/final/configuration_summary.json",
+    "pointer": [
+      10,
+      "total_byte_ratio"
+    ],
+    "value": 0.057130695333561465,
+    "format": "percent",
+    "display": "5.7"
+  },
+  "TimeFiftyFails": {
+    "file": "results/final/configuration_summary.json",
+    "pointer": [
+      10,
+      "violating_runs"
+    ],
+    "value": 65,
+    "format": "integer",
+    "display": "65"
+  },
+  "TimeFiftyMax": {
+    "file": "results/final/configuration_summary.json",
+    "pointer": [
+      10,
+      "max_synchronous_error_m"
+    ],
+    "value": 49.93943021578028,
+    "format": "decimal",
+    "display": "49.94"
+  },
+  "AllMae": {
+    "file": "results/final/configuration_summary.json",
+    "pointer": [
+      0,
+      "macro_aircraft_mean",
+      "point_mae_m"
+    ],
+    "value": 0.0,
+    "format": "decimal",
+    "display": "0.00"
+  },
+  "AllMse": {
+    "file": "results/final/configuration_summary.json",
+    "pointer": [
+      0,
+      "macro_aircraft_mean",
+      "point_mse_m2"
+    ],
+    "value": 0.0,
+    "format": "decimal",
+    "display": "0.00"
+  },
+  "AllRmse": {
+    "file": "results/final/configuration_summary.json",
+    "pointer": [
+      0,
+      "macro_aircraft_mean",
+      "point_rmse_m"
+    ],
+    "value": 0.0,
+    "format": "decimal",
+    "display": "0.00"
+  },
+  "StrideEightMae": {
+    "file": "results/final/configuration_summary.json",
+    "pointer": [
+      3,
+      "macro_aircraft_mean",
+      "point_mae_m"
+    ],
+    "value": 10.298807161560731,
+    "format": "decimal",
+    "display": "10.30"
+  },
+  "StrideEightMse": {
+    "file": "results/final/configuration_summary.json",
+    "pointer": [
+      3,
+      "macro_aircraft_mean",
+      "point_mse_m2"
+    ],
+    "value": 250.37295906782973,
+    "format": "decimal",
+    "display": "250.37"
+  },
+  "StrideEightRmse": {
+    "file": "results/final/configuration_summary.json",
+    "pointer": [
+      3,
+      "macro_aircraft_mean",
+      "point_rmse_m"
+    ],
+    "value": 14.305468542743878,
+    "format": "decimal",
+    "display": "14.31"
+  },
+  "GeoTwentyFiveMae": {
+    "file": "results/final/configuration_summary.json",
+    "pointer": [
+      6,
+      "macro_aircraft_mean",
+      "point_mae_m"
+    ],
+    "value": 36.92101028747271,
+    "format": "decimal",
+    "display": "36.92"
+  },
+  "GeoTwentyFiveMse": {
+    "file": "results/final/configuration_summary.json",
+    "pointer": [
+      6,
+      "macro_aircraft_mean",
+      "point_mse_m2"
+    ],
+    "value": 9761.496343679635,
+    "format": "decimal",
+    "display": "9761.50"
+  },
+  "GeoTwentyFiveRmse": {
+    "file": "results/final/configuration_summary.json",
+    "pointer": [
+      6,
+      "macro_aircraft_mean",
+      "point_rmse_m"
+    ],
+    "value": 62.5084998203992,
+    "format": "decimal",
+    "display": "62.51"
+  },
+  "TimeTenMae": {
+    "file": "results/final/configuration_summary.json",
+    "pointer": [
+      8,
+      "macro_aircraft_mean",
+      "point_mae_m"
+    ],
+    "value": 1.8948063322621724,
+    "format": "decimal",
+    "display": "1.89"
+  },
+  "TimeTenMse": {
+    "file": "results/final/configuration_summary.json",
+    "pointer": [
+      8,
+      "macro_aircraft_mean",
+      "point_mse_m2"
+    ],
+    "value": 10.556135238513557,
+    "format": "decimal",
+    "display": "10.56"
+  },
+  "TimeTenRmse": {
+    "file": "results/final/configuration_summary.json",
+    "pointer": [
+      8,
+      "macro_aircraft_mean",
+      "point_rmse_m"
+    ],
+    "value": 3.122560226528756,
+    "format": "decimal",
+    "display": "3.12"
+  }
+}
