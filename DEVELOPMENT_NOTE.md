@@ -1,0 +1,13 @@
+# Development keeps the original point records
+
+The eleven fixed configurations were evaluated on 41 runs from 13 development aircraft. Only identity, which keeps every point, meets every individual-run position, route-length and zone-timing budget. The declared minimum-byte selector therefore chooses identity. This is a negative result for this finite grid under authored requirements; it does not establish that compression is impossible or that these limits suit every application.
+
+The time-synchronous 10 m configuration stores 29.3% of the identity point-record bytes and stays within the position budget, but fails the 1% horizontal route-length requirement on ten runs. Geometric 25 m stores 6.3% of the bytes while its maximum time-aligned position error is 1,261.76 m. A geometric route tolerance and a time-aligned replay tolerance are different quantities. Reference tracks are already filtered and interpolated, and their route lengths are not physical ground truth.
+
+All 451 run/configuration cases, full search table, signed/absolute query errors, unavailable transition states and retained-index witnesses are preserved. A separate binary decoder, scalar split-tree checker, 80-digit Decimal reconstruction and SQLite grouping path verifies 1,210,248 conditions, including 149,644 actual private point-diagnostic records and 537,622 split-interior evaluations. No analysis metric helper is imported by that checker.
+
+Private point-level evidence was added after the first development execution. The earlier outputs remain preserved privately. Fresh execution left every metric/search/selection byte and all 451 retained payload/split witnesses unchanged. No source, split, candidate, metric or budget was selected from those outputs. Python 3.12.14 with NumPy 2.2.5 also reproduces 55,792 exact and 6,589 tolerant public fields, with 906 runtime-specific hashes independently bound to regenerated artifacts. The source archive remains unchanged. Small macro-average differences are within the predeclared tolerances; no guard or selected configuration differs.
+
+Thirty-four fixture methods and three authored CLI cases with eighteen closed-form checks pass. The deliberately synthetic counterexample preserves a straight route's length while moving its first 1 km zone exit 75 seconds early. It illustrates the mechanism and is not an additional measured flight.
+
+At this checkpoint no final-aircraft compression/query scores have been computed. Commit the source, complete development evidence, algorithm/checker code, examples and tests in a dependency manifest before final evaluation. Public output contains metrics and ordinal labels, while coordinate records and aircraft identifiers remain private.

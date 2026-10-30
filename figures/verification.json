@@ -1,0 +1,9 @@
+{
+  "status": "PASS_SOURCE_VALUES_LABELS_AND_ACTUAL_SVG_GEOMETRY",
+  "figures": 3,
+  "mapped_source_values": 470,
+  "svg_coordinates": 778,
+  "individual_numeric_labels": 44,
+  "file_hashes": 9,
+  "source_coordinate_publication": "Only authored example position/time lines; actual recorded-source figures use aggregate metrics"
+}

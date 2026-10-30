@@ -10,3 +10,7 @@ data/raw/
 *.bin
 *.env
 paper/build/
+paper/main.pdf
+paper/*.log
+paper/*.aux
+paper/*.out

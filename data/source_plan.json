@@ -15,7 +15,7 @@
     "maximum_bytes": 50331648,
     "maximum_redirects": 3
   },
-  "scene_selection": "first24 unique numeric txt scene names across processed_data/train and processed_data/test, sorted by numeric ID then full member name; no raw or weather members read",
+  "scene_selection": "first 24 unique numeric txt scene names across processed_data/train and processed_data/test, sorted by numeric ID then full member name; no raw or weather members read",
   "scene_count": 24,
   "maximum_selected_uncompressed_bytes": 67108864,
   "maximum_native_rows": 500000,

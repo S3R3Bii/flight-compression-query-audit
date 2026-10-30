@@ -1,0 +1,27 @@
+{
+  "status": "PASS_COMPILE_AND_SIX_PAGE_VISUAL_REVIEW",
+  "timestamp_utc": "2026-10-30T23:42:28.604620+00:00",
+  "compiler": "Tectonic",
+  "pages": 6,
+  "render_tool": "Poppler pdftoppm",
+  "render_dpi": 95,
+  "visual_checks": "All six current pages and three current figures inspected individually. No clipping, overlap or missing labels observed. Figures and tables identify units, denominators and authored/source distinctions. No accessibility-conformance claim.",
+  "layout_warnings": [],
+  "private_log_sha256": "d4492120bac27c96fe2c1ddad10e7944c3e250dd8166069cdef4901882b50935",
+  "artifact_sha256": {
+    "paper/main.tex": "26b26fd17c0d2e5635d392219fdaffbb02dc2d034b5c1337c79c5f3a9684afa8",
+    "paper/manuscript.pdf": "1a4cd7d9863ace3b61ac84f301ef8879f14dff1e55db211bdb2d9df9b9e1fedc",
+    "paper/images/authored_timing.pdf": "9d73adc28bfde7b7056b8d9720d221e9c4cdb839864af5aba6059b5e6e0115ca",
+    "paper/images/development_fidelity.pdf": "849bc853dd20f70bad26755bf80462764355892d20c8e6130b761e28f678185b",
+    "paper/images/final_query_failures.pdf": "445cb202fe5caf851510de514ac33030c2f8fa80e7324cb37715560727acc5e8"
+  },
+  "rendered_page_sha256": {
+    "1": "f25a06125993b069acfd12bb823b6f6b9b2cbdc7d8f1ec4abb680e7b0558b995",
+    "2": "699ea5d13e1fa837cb24836f0c034a54dd1775f736169c5640ccb32cc5c44dd3",
+    "3": "d709a466ed5bec4c25f3fdef09b355adbe82939a0ba54cd92b452cf124aacc7e",
+    "4": "138915861c0d5f4c81113513061c691ff898f034ba07c5abc05769fc2f1409b2",
+    "5": "71933dc492d811949fab20375a22b9dbdcb264a1cef3a8c0fa040773b28e526a",
+    "6": "ab61a4a0be6ecbe9da04a0043ab76408d4751a22c6545594248eb24e8d30d0b3"
+  },
+  "prior_layout_failure_preserved": "First compile overfull paragraph retained privately; linked DOI display shortened; all current pages freshly rendered and inspected."
+}
