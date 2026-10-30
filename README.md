@@ -26,7 +26,7 @@ Try the [offline implementation exercise](examples/README.md): a straight route 
 ~~~sh
 python -m pip install -r requirements.txt
 python src/capture_source.py --out .source/7days1.zip --receipt .source/capture.json --protocol-commit e17b0aab0d3ed6d45de1965d111a0f30f514f152 --expected-sha256 d058adbbc19393bdb08ace91e0505933c858b626e5098ed87dd7645ab045485c
-python src/replay.py --archive .source/7days1.zip --work .work/replay --receipt .work/replay-receipt.json
+python src/replay.py --archive .source/7days1.zip --work .source/replay --receipt .source/replay-receipt.json
 ~~~
 
 Use a full-history clone and fresh output paths. The first source command makes an ordinary unauthenticated request to the separately licensed public Figshare file, checks its exact bytes and refuses to overwrite a prior capture. Retain a failed capture and its receipt; do not repeatedly retry a source denial. The subsequent analysis runs offline. Source archives, coordinates and temporary payloads remain in ignored paths; do not upload those directories or CI artifacts.
@@ -39,6 +39,6 @@ Exact candidate/main Linux CI, matching trees, annotated release tag and publica
 
 ## Interpretation and source credit
 
-TrajAir is by Jay Patrikar, Brady Moon, Sourish Ghosh, Jean Oh and Sebastian Scherer, with [official documentation](https://theairlab.org/trajair/) and [dataset DOI](https://doi.org/10.1184/R1/14866251.v1), licensed CC BY 4.0. Cohort selection, gap splitting, metre conversion and derived metrics are modifications. The code is MIT licensed; see [source rights](DATA_RIGHTS.md). Douglas–Peucker and time-aligned trajectory simplification are established methods, not new algorithms introduced here.
+TrajAir is by Jay Patrikar, Brady Moon, Sourish Ghosh, Jean Oh and Sebastian Scherer, with [official documentation](https://theairlab.org/trajair/) and [dataset DOI](https://doi.org/10.1184/R1/14866251.v1), licensed CC BY 4.0. Cohort selection, gap splitting, metre conversion and derived metrics are modifications. The code is MIT licensed; see [source rights](DATA_RIGHTS.md). Douglasâ€“Peucker and time-aligned trajectory simplification are established methods, not new algorithms introduced here.
 
 The 1% route-length budget could preserve source fluctuations alongside useful movement. Its operational suitability is uncalibrated. Aircraft separation does not remove shared airport, weather or processing dependence. This cohort is a convenience slice and the grid is finite. No measured safety, airline-delay, latency, production saving, deployment or causal-generalization result follows. Raw source records, identifying fields, credentials and formal-publication projects such as Azure optimization remain private.

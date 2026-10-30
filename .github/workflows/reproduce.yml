@@ -23,5 +23,5 @@ jobs:
       - run: python -m pip install -r requirements.txt
       - name: Fetch the separately pinned public source
         run: python src/capture_source.py --out .source/7days1.zip --receipt .source/capture.json --protocol-commit e17b0aab0d3ed6d45de1965d111a0f30f514f152 --expected-sha256 d058adbbc19393bdb08ace91e0505933c858b626e5098ed87dd7645ab045485c
-      - run: python src/replay.py --archive .source/7days1.zip --work .work/replay --receipt .work/replay-receipt.json
+      - run: python src/replay.py --archive .source/7days1.zip --work .source/replay --receipt .source/replay-receipt.json
       - run: python src/verify_canonical_git.py
