@@ -1,0 +1,46 @@
+{
+  "status": "PASS_SOURCE_COHORT",
+  "archive_sha256": "d058adbbc19393bdb08ace91e0505933c858b626e5098ed87dd7645ab045485c",
+  "archive_bytes": 37509701,
+  "eligible_scenes": 344,
+  "selected_scenes": 24,
+  "selected_member_bytes": 4495433,
+  "native_counts": {
+    "native_rows": 43542,
+    "out_of_order_transitions": 0,
+    "duplicate_frame_rows": 0,
+    "valid_tracks": 79,
+    "gaps_split": 28
+  },
+  "native_tracks": 79,
+  "qualified_runs": 106,
+  "qualified_points": 43541,
+  "aircraft_groups": {
+    "development": 13,
+    "final": 17
+  },
+  "run_counts": {
+    "development": 41,
+    "final": 65
+  },
+  "excluded_counts": {
+    "run_point_count_outside_fixed_bound": 1
+  },
+  "exclusions": [
+    {
+      "track": "T0079",
+      "scene_order": 24,
+      "reason": "run_point_count_outside_fixed_bound",
+      "rows": 1
+    }
+  ],
+  "failed_gates": [],
+  "scenarios_or_compression_scores_run": false,
+  "coordinate_records_and_source_identifiers_public": false,
+  "units": {
+    "native_positions": "km",
+    "working_positions": "m",
+    "elapsed_frame_seconds": 1
+  },
+  "source_reference": "Processed cubic-interpolated 1 Hz source tracks; no raw-sensor accuracy or complete-flight claim"
+}

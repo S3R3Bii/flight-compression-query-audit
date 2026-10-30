@@ -1,0 +1,33 @@
+{
+  "status": "PASS_PINNED_SOURCE_CAPTURE",
+  "source_url": "https://ndownloader.figshare.com/files/28625121",
+  "filename": "7days1.zip",
+  "protocol_commit": "e17b0aab0d3ed6d45de1965d111a0f30f514f152",
+  "started_utc": "2026-10-30T23:08:02.228069+00:00",
+  "runtime": {
+    "python": "3.10.11",
+    "implementation": "CPython"
+  },
+  "expected_bytes": 37509701,
+  "publisher_md5": "ea45667239cc503767dc4baa9d125066",
+  "capture_code_commit": "2b66c5344df7f3c61a53c5226dad9ee774e29da6",
+  "http_status": 200,
+  "final_host": "s3-eu-west-1.amazonaws.com",
+  "headers": {
+    "Content-Type": "application/zip",
+    "Content-Length": "37509701",
+    "ETag": "\"ea45667239cc503767dc4baa9d125066\"",
+    "Last-Modified": "Sat, 04 Sep 2021 03:35:59 GMT"
+  },
+  "bytes": 37509701,
+  "md5": "ea45667239cc503767dc4baa9d125066",
+  "sha256": "d058adbbc19393bdb08ace91e0505933c858b626e5098ed87dd7645ab045485c",
+  "redirects": [
+    {
+      "status": 302,
+      "from_host": "ndownloader.figshare.com",
+      "to_host": "s3-eu-west-1.amazonaws.com"
+    }
+  ],
+  "finished_utc": "2026-10-30T23:08:08.153717+00:00"
+}
