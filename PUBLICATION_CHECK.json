@@ -1,7 +1,7 @@
 {
-  "timestamp_utc": "2026-10-30T23:29:28.994832+00:00",
+  "timestamp_utc": "2026-10-30T23:30:17.515074+00:00",
   "status": "PASS_BOUNDED_SCAN",
-  "files_checked": 40,
+  "files_checked": 41,
   "scope": "Exact staged Git index bytes; decompressed text; forbidden paths/extensions, high-confidence key and private machine path patterns; local Markdown links. Image/PDF contents require separate visual/source review. This is not universal secret detection.",
   "findings": [],
   "sha256": {
@@ -15,6 +15,7 @@
     "SOURCE_BINDING.md": "322fba7eb0cd7966ead8ba3aeb9d19ffc41fc3e90198b14a7bf96e676c9de67e",
     "data/cohort.json": "77671066e01fb5c9bb40d3b1095550a14b225ce30a76952ad43d35a32e5a95b5",
     "data/example_validation.json": "66b2998febbe16fd24cfa56cad2d30d89349c9add7b10bddd82abfc4d34ccc73",
+    "data/frozen_dependencies.json": "39ef855e659cc38bc44e47649839d8e3f556bc2c081f254782767f3fb29ac307",
     "data/run_manifest.csv": "b76ac12c0d0fcd07c760bea85b4f6c8a4a86764dba7d49b8ccd0664d3a14e44c",
     "data/source_members.json": "77799b55b20614c0604739f5668748438f7f4862601ba94c7bbf08e881edf5ba",
     "data/source_plan.json": "ee75ca91db212c745541cb4a54585aee11caaa47a819812a31b2b50b0bbe1cb3",
