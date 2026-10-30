@@ -1,0 +1,14 @@
+{
+  "status": "PASS_FIXED_DEVELOPMENT_SELECTION",
+  "selected_configuration": "identity",
+  "objective": "minimum total actual point-record bytes subject to all individual-run fidelity guards; declared rank breaks ties",
+  "aircraft_groups": 13,
+  "runs": 41,
+  "cases": 451,
+  "eligible_configurations": [
+    "identity"
+  ],
+  "selected_total_byte_ratio": 1.0,
+  "private_working_input_sha256": "244c74b3666397efabb28c933ec7ca59e9ca367ba27c8d24f3faa44c2343bd9d",
+  "final_compression_scores_used": false
+}

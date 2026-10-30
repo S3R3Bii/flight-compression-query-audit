@@ -6,6 +6,7 @@ import hashlib
 import json
 import platform
 import subprocess
+import struct
 import time
 from collections import defaultdict
 from pathlib import Path
@@ -135,6 +136,7 @@ def analyze(private_input, output, private_output, phase):
     private_output.mkdir(parents=True, exist_ok=False)
     (private_output / "payloads").mkdir()
     (private_output / "split_witnesses").mkdir()
+    (private_output / "point_diagnostics").mkdir()
     rows, witnesses, timings = [], [], []
     choices = configurations(plan)
     assert len(choices) == 11
@@ -145,13 +147,14 @@ def analyze(private_input, output, private_output, phase):
                 run["elapsed_seconds"], run["xyz_m"], method, parameter
             )
             payload = encode(run["elapsed_seconds"], run["xyz_m"], indices)
-            metrics = summarize_run(
+            metrics, point_diagnostics = summarize_run(
                 run["elapsed_seconds"],
                 run["xyz_m"],
                 indices,
                 payload,
                 plan["selection_guards"],
                 plan["zones_radius_m"],
+                with_diagnostics=True,
             )
             record = {
                 "run_id": run["run_id"],
@@ -169,6 +172,13 @@ def analyze(private_input, output, private_output, phase):
             (private_output / "split_witnesses" / (name + ".json")).write_bytes(
                 split_bytes
             )
+            diagnostic_bytes = (
+                struct.pack("<Q", len(point_diagnostics))
+                + np.asarray(point_diagnostics, dtype="<f8").tobytes()
+            )
+            (private_output / "point_diagnostics" / (name + ".bin")).write_bytes(
+                diagnostic_bytes
+            )
             witnesses.append(
                 {
                     "run_id": run["run_id"],
@@ -177,6 +187,10 @@ def analyze(private_input, output, private_output, phase):
                     "payload_sha256": hashlib.sha256(payload).hexdigest(),
                     "split_witness_sha256": hashlib.sha256(split_bytes).hexdigest(),
                     "split_nodes": len(splits),
+                    "point_diagnostics_sha256": hashlib.sha256(
+                        diagnostic_bytes
+                    ).hexdigest(),
+                    "point_diagnostics_bytes": len(diagnostic_bytes),
                 }
             )
             timings.append(

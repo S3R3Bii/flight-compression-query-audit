@@ -316,6 +316,9 @@ def verify(archive, private_input, public_input):
         "aircraft_groups": {p: len(v) for p, v in identifiers.items()},
         "maximum_coordinate_conversion_error_m": str(largest_conversion_error),
         "source_sha256_unchanged": digest,
+        "private_working_input_sha256": hashlib.sha256(
+            (private_input / "runs.json").read_bytes()
+        ).hexdigest(),
         "method": "Separate native ZIP parsing, SQLite lag/cumulative segment boundaries and 70-digit Decimal coordinate checks; no ingestion helper imports",
         "public_input_hashes": {
             name: hashlib.sha256((public_input / name).read_bytes()).hexdigest()

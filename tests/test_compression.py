@@ -39,6 +39,21 @@ def positions(xs, ys=None, zs=None):
 
 
 class CompressionTests(unittest.TestCase):
+    def test_private_point_evidence_binds_the_actual_reconstruction(self):
+        t, p = [0, 1, 2], positions([0, 0, 100])
+        metrics, evidence = summarize_run(
+            t,
+            p,
+            [0, 2],
+            encode(t, p, [0, 2]),
+            GUARDS,
+            [1000, 2000],
+            with_diagnostics=True,
+        )
+        self.assertEqual(evidence.shape, (3, 7))
+        self.assertEqual(evidence[1].tolist(), [50, 0, 0, 50, 0, 0, 2500])
+        self.assertAlmostEqual(metrics["point_mse_m2"], 2500 / 3)
+
     def test_fixed_search_has_eleven_configurations_and_identity_first(self):
         plan = json.loads((ROOT / "data/source_plan.json").read_bytes())
         self.assertEqual(len(configurations(plan)), 11)

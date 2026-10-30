@@ -183,7 +183,9 @@ def horizontal_length(points):
     return float(np.sum(np.sqrt(np.sum(delta * delta, axis=1))))
 
 
-def summarize_run(times, positions, indices, payload, guards, zones):
+def summarize_run(
+    times, positions, indices, payload, guards, zones, with_diagnostics=False
+):
     t, p = validate(times, positions)
     rt, rp = unpack(payload)
     decoded = reconstruct(t, rt, rp)
@@ -317,4 +319,6 @@ def summarize_run(times, positions, indices, payload, guards, zones):
         )
         all_pass.extend([occupancy_pass, transition_pass])
     row["admissible"] = bool(all(all_pass))
+    if with_diagnostics:
+        return row, np.column_stack([decoded, errors, distance2])
     return row

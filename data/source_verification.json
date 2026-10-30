@@ -10,6 +10,7 @@
   },
   "maximum_coordinate_conversion_error_m": "4.545953273773193359375E-13",
   "source_sha256_unchanged": "d058adbbc19393bdb08ace91e0505933c858b626e5098ed87dd7645ab045485c",
+  "private_working_input_sha256": "244c74b3666397efabb28c933ec7ca59e9ca367ba27c8d24f3faa44c2343bd9d",
   "method": "Separate native ZIP parsing, SQLite lag/cumulative segment boundaries and 70-digit Decimal coordinate checks; no ingestion helper imports",
   "public_input_hashes": {
     "cohort.json": "77671066e01fb5c9bb40d3b1095550a14b225ce30a76952ad43d35a32e5a95b5",
